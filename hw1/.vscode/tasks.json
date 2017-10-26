@@ -5,9 +5,9 @@
     "tasks": [
         {
             "taskName": "runner",
-            "command": "bash runner.sh",
+            "command": "bash utils/runner.sh",
             "options": {
-                "cwd": "/home/tweng/Documents/CSE599/hw1/utils"
+                "cwd": "/home/tweng/Documents/CSE599/hw1"
             },
             "type": "shell",
             "problemMatcher": []

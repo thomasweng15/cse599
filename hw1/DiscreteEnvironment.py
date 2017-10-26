@@ -20,8 +20,6 @@ class DiscreteEnvironment(object):
         for idx in range(self.dimension):
             self.num_cells[idx] = numpy.ceil((upper_limits[idx] - lower_limits[idx])/resolution)
 
-        print self.resolution, self.lower_limits, self.upper_limits, self.dimension, self.num_cells
-
     def configuration_to_nodeID(self, config):
         
         # This function maps a node configuration in full configuration
